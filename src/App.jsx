@@ -1,0 +1,20 @@
+import React from "react";
+import Button from "./components/button/Button";
+import Input from "./components/input/Input";
+import Modal from "./components/modal/Modal";
+import Select from "./components/select/Select";
+import GlobalStyle from "./GlobalStyle";
+
+function App() {
+  return (
+    <>
+      <GlobalStyle />
+      <Button />
+      <Input />
+      <Modal />
+      <Select />
+    </>
+  );
+}
+
+export default App;
